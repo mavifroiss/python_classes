@@ -20,6 +20,10 @@ class cliente:
             print("O cliente", self.nome, "está ativo")   
         else:  
             print("O cliente", self.nome, "não esta ativo.")
+
+            def CalculoIdade(self):
+                anoAtual = 2024 
+                idadeCliente = 
         
 objeto = cliente("Maria", 2006, "F", 760, "Av. Santos Dumont", True)
 objeto2 = cliente("Maria", 2006, "F", -760, "Av. Santos Dumont", True)
@@ -31,4 +35,5 @@ objeto3 = cliente("Maria", 2006, "F", 760, "Av. Santos Dumont", False)
 
 objeto.ValidaClilente()                                                                  
 objeto2.ValidaClilente()                                                                  
-objeto3.ValidaClilente()                                                                  
+objeto3.ValidaClilente()     
+
